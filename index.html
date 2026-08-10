@@ -11,125 +11,26 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="noise"></div>
-  <div class="scanlines"></div>
-
-  <header class="topbar">
-    <a href="#top" class="brand">DANIEL GOSLING</a>
-    <nav><a href="#music">MUSIC</a><a href="#films">FILMS</a><a href="#about">ABOUT</a></nav>
-  </header>
-
+  <div class="noise"></div><div class="scanlines"></div>
+  <header class="topbar"><a href="#top" class="brand">DANIEL GOSLING</a><nav><a href="#music">MUSIC</a><a href="#films">FILMS</a><a href="#about">ABOUT</a></nav></header>
   <main id="top">
-    <section class="hero">
-      <div class="hero-image"></div>
-      <div class="hero-copy">
-        <p class="kicker">BRAZIL → AUSTRALIA</p>
-        <h1>DANIEL<br>GOSLING</h1>
-        <p class="hero-note">Music from Minas Gerais.</p>
-      </div>
-    </section>
-
-    <section id="music" class="music-intro">
-      <p class="micro">SELECTED RECORDINGS</p>
-      <div class="track-list">
-        <article class="track dark" data-track="sante">
-          <div class="track-number">01</div>
-          <div class="track-main">
-            <h2>SANTÊ</h2>
-            <p class="track-line">A song for Santa Tereza. The neighbourhood where everything began.</p>
-            <p class="credits">with Toninho Horta · Esdra Ferreira “Neném” · Enéias Xavier</p>
-            <div class="player" data-src="Sante.mp3">
-              <button class="play" aria-label="Play Santê">▶</button>
-              <div class="player-info"><strong>SANTÊ</strong><span class="time">00:00 / --:--</span></div>
-              <input class="seek" type="range" min="0" max="100" value="0" aria-label="Seek Santê">
-              <audio preload="metadata"></audio>
-            </div>
-            <div class="links"><a href="https://open.spotify.com/search/Daniel%20Gosling%20Sant%C3%AA" target="_blank" rel="noreferrer">Spotify ↗</a><a href="https://music.apple.com/au/artist/daniel-gosling/1661173169" target="_blank" rel="noreferrer">Apple Music ↗</a></div>
-          </div>
-        </article>
-
-        <article class="track cream" data-track="faial">
-          <div class="track-number">02</div>
-          <div class="track-main">
-            <h2>FAIAL</h2>
-            <p class="track-line">Inspired by a journey to the island of Faial, Portugal. Composed by Edelson Pantera.</p>
-            <p class="credits">Deangelo Silva · Felipe Continentino · Igor Gosling</p>
-            <div class="player" data-src="Faial.mp3">
-              <button class="play" aria-label="Play Faial">▶</button>
-              <div class="player-info"><strong>FAIAL</strong><span class="time">00:00 / --:--</span></div>
-              <input class="seek" type="range" min="0" max="100" value="0" aria-label="Seek Faial">
-              <audio preload="metadata"></audio>
-            </div>
-            <div class="links"><a href="https://open.spotify.com/search/Daniel%20Gosling%20Faial" target="_blank" rel="noreferrer">Spotify ↗</a><a href="https://music.apple.com/au/song/1821033406" target="_blank" rel="noreferrer">Apple Music ↗</a></div>
-          </div>
-        </article>
-
-        <article class="track rust" data-track="estrada">
-          <div class="track-number">03</div>
-          <div class="track-main">
-            <h2>CANÇÃO DA<br>ESTRADA ABERTA</h2>
-            <p class="track-line">A collaboration with Mário Wamser and Murilo Antunes.</p>
-            <p class="credits">Daniel Gosling · Mário Wamser · lyrics by Murilo Antunes</p>
-            <div class="player" data-src="cancao-da-estrada-aberta.mp3">
-              <button class="play" aria-label="Play Canção da Estrada Aberta">▶</button>
-              <div class="player-info"><strong>CANÇÃO DA ESTRADA ABERTA</strong><span class="time">00:00 / --:--</span></div>
-              <input class="seek" type="range" min="0" max="100" value="0" aria-label="Seek Canção da Estrada Aberta">
-              <audio preload="metadata"></audio>
-            </div>
-            <div class="links"><a href="https://open.spotify.com/search/Can%C3%A7%C3%A3o%20da%20Estrada%20Aberta%20Daniel%20Gosling" target="_blank" rel="noreferrer">Spotify ↗</a><a href="https://music.apple.com/au/artist/daniel-gosling/1661173169" target="_blank" rel="noreferrer">Apple Music ↗</a></div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="quote-break">
-      <p>Long before I wrote songs,<br>Minas was already in them.</p>
-    </section>
-
-    <section id="films" class="films">
-      <div class="section-head"><span>03 FILMS</span><span>YOUTUBE / SELECTED</span></div>
-      <div class="film-grid">
-        <article class="film placeholder">
-          <div class="film-frame film-noise"><span>SANTÊ / VIDEO</span></div>
-          <div class="film-caption"><strong>SANTÊ</strong><a href="https://www.youtube.com/user/danielgosling" target="_blank" rel="noreferrer">YouTube ↗</a></div>
-        </article>
-        <article class="film placeholder">
-          <div class="film-frame film-noise alt"><span>FAIAL / VIDEO</span></div>
-          <div class="film-caption"><strong>FAIAL</strong><a href="https://www.youtube.com/user/danielgosling" target="_blank" rel="noreferrer">YouTube ↗</a></div>
-        </article>
-        <article class="film wide">
-          <div class="film-frame"><iframe src="https://www.youtube.com/embed/tKfPB8xaZCw" title="Canção da Estrada Aberta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-          <div class="film-caption"><strong>CANÇÃO DA ESTRADA ABERTA</strong><span>Mário Wamser · Daniel Gosling · Murilo Antunes</span></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="about" class="about">
-      <div class="about-large">MINAS<br>GERAIS</div>
-      <div class="about-copy">
-        <p>Born in Santa Tereza, Belo Horizonte, Daniel Gosling grew up inside the musical landscape that gave birth to Clube da Esquina.</p>
-        <p>Family, neighbourhood, friendship and music were never separate things.</p>
-        <p>After studying at Bituca University of Popular Music and years inside Belo Horizonte's music scene, that language travelled with him to Australia.</p>
-        <p class="last">It still does.</p>
-      </div>
-    </section>
-
-    <section class="adelaide">
-      <div class="adelaide-type">14,000 KM</div>
-      <div class="adelaide-copy"><span>ADELAIDE / AUSTRALIA</span><p>The journey continues — taking the music of Minas Gerais to Australia and the world.</p></div>
-    </section>
-
-    <section class="press">
-      <a href="https://www.sbs.com.au/language/portuguese/pt/podcast-episode/daniel-gosling-o-mineiro-que-trouxe-as-cancoes-do-clube-da-esquina-a-adelaide/x50dw2q1w" target="_blank" rel="noreferrer"><span>SBS AUDIO / 2023</span><strong>From Clube da Esquina to Adelaide</strong><i>LISTEN ↗</i></a>
-      <a href="https://www.sbs.com.au/language/portuguese/pt/podcast-episode/a-vida-de-lo-borges-era-como-as-musicas-dele-diz-daniel-gosling/u1evx4ne6" target="_blank" rel="noreferrer"><span>SBS AUDIO / 2025</span><strong>Remembering Lô Borges</strong><i>LISTEN ↗</i></a>
-    </section>
+    <section class="hero"><div class="hero-image"></div><div class="hero-copy"><p class="kicker">BRAZIL → AUSTRALIA</p><h1>DANIEL<br>GOSLING</h1><p class="hero-note">Music from Minas Gerais.</p></div></section>
+    <section id="music" class="music-intro"><p class="micro">SELECTED RECORDINGS</p><div class="track-list">
+      <article class="track dark" data-track="sante"><div class="track-number">01</div><div class="track-main"><h2>SANTÊ</h2><p class="track-line">A song for Santa Tereza. The neighbourhood where everything began.</p><p class="credits">with Toninho Horta · Esdra Ferreira “Neném” · Enéias Xavier</p><div class="player" data-src="Sante.mp3"><button class="play" aria-label="Play Santê">▶</button><div class="player-info"><strong>SANTÊ</strong><span class="time">00:00 / --:--</span></div><input class="seek" type="range" min="0" max="100" value="0" aria-label="Seek Santê"><audio preload="metadata"></audio></div><div class="links"><a href="https://open.spotify.com/search/Daniel%20Gosling%20Sant%C3%AA" target="_blank" rel="noreferrer">Spotify ↗</a><a href="https://music.apple.com/au/artist/daniel-gosling/1661173169" target="_blank" rel="noreferrer">Apple Music ↗</a></div></div></article>
+      <article class="track cream" data-track="faial"><div class="track-number">02</div><div class="track-main"><h2>FAIAL</h2><p class="track-line">Inspired by a journey to the island of Faial, Portugal. Composed by Edelson Pantera.</p><p class="credits">Deangelo Silva · Felipe Continentino · Igor Gosling</p><div class="player" data-src="Faial.mp3"><button class="play" aria-label="Play Faial">▶</button><div class="player-info"><strong>FAIAL</strong><span class="time">00:00 / --:--</span></div><input class="seek" type="range" min="0" max="100" value="0" aria-label="Seek Faial"><audio preload="metadata"></audio></div><div class="links"><a href="https://open.spotify.com/search/Daniel%20Gosling%20Faial" target="_blank" rel="noreferrer">Spotify ↗</a><a href="https://music.apple.com/au/song/1821033406" target="_blank" rel="noreferrer">Apple Music ↗</a></div></div></article>
+      <article class="track rust" data-track="estrada"><div class="track-number">03</div><div class="track-main"><h2>CANÇÃO DA<br>ESTRADA ABERTA</h2><p class="track-line">A collaboration with Mário Wamser and Murilo Antunes.</p><p class="credits">Daniel Gosling · Mário Wamser · lyrics by Murilo Antunes</p><div class="player" data-src="cancao-da-estrada-aberta.mp3"><button class="play" aria-label="Play Canção da Estrada Aberta">▶</button><div class="player-info"><strong>CANÇÃO DA ESTRADA ABERTA</strong><span class="time">00:00 / --:--</span></div><input class="seek" type="range" min="0" max="100" value="0" aria-label="Seek Canção da Estrada Aberta"><audio preload="metadata"></audio></div><div class="links"><a href="https://open.spotify.com/search/Can%C3%A7%C3%A3o%20da%20Estrada%20Aberta%20Daniel%20Gosling" target="_blank" rel="noreferrer">Spotify ↗</a><a href="https://music.apple.com/au/artist/daniel-gosling/1661173169" target="_blank" rel="noreferrer">Apple Music ↗</a></div></div></article>
+    </div></section>
+    <section class="quote-break"><p>Long before I wrote songs,<br>Minas was already in them.</p></section>
+    <section id="films" class="films"><div class="section-head"><span>03 FILMS</span><span>YOUTUBE / SELECTED</span></div><div class="film-grid">
+      <article class="film"><div class="film-frame"><iframe src="https://www.youtube.com/embed/-6cUK419fQk" title="Santê" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="film-caption"><strong>SANTÊ</strong><span>Daniel Gosling</span></div></article>
+      <article class="film"><div class="film-frame"><iframe src="https://www.youtube.com/embed/df4rVeRhOJk" title="Faial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><div class="film-caption"><strong>FAIAL</strong><span>Daniel Gosling</span></div></article>
+      <article class="film wide"><div class="film-frame"><iframe src="https://www.youtube.com/embed/tKfPB8xaZCw" title="Canção da Estrada Aberta" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="film-caption"><strong>CANÇÃO DA ESTRADA ABERTA</strong><span>Mário Wamser · Daniel Gosling · Murilo Antunes</span></div></article>
+    </div></section>
+    <section id="about" class="about"><div class="about-large">MINAS<br>GERAIS</div><div class="about-copy"><p>Born in Santa Tereza, Belo Horizonte, Daniel Gosling grew up inside the musical landscape that gave birth to Clube da Esquina.</p><p>Family, neighbourhood, friendship and music were never separate things.</p><p>After studying at Bituca University of Popular Music and years inside Belo Horizonte's music scene, that language travelled with him to Australia.</p><p class="last">It still does.</p></div></section>
+    <section class="adelaide"><div class="adelaide-type">14,000 KM</div><div class="adelaide-copy"><span>ADELAIDE / AUSTRALIA</span><p>The journey continues — taking the music of Minas Gerais to Australia and the world.</p></div></section>
+    <section class="press"><a href="https://www.sbs.com.au/language/portuguese/pt/podcast-episode/daniel-gosling-o-mineiro-que-trouxe-as-cancoes-do-clube-da-esquina-a-adelaide/x50dw2q1w" target="_blank" rel="noreferrer"><span>SBS AUDIO / 2023</span><strong>From Clube da Esquina to Adelaide</strong><i>LISTEN ↗</i></a><a href="https://www.sbs.com.au/language/portuguese/pt/podcast-episode/a-vida-de-lo-borges-era-como-as-musicas-dele-diz-daniel-gosling/u1evx4ne6" target="_blank" rel="noreferrer"><span>SBS AUDIO / 2025</span><strong>Remembering Lô Borges</strong><i>LISTEN ↗</i></a></section>
   </main>
-
-  <footer>
-    <strong>DANIEL GOSLING</strong>
-    <div><a href="https://open.spotify.com/search/Daniel%20Gosling" target="_blank" rel="noreferrer">SPOTIFY</a><a href="https://music.apple.com/au/artist/daniel-gosling/1661173169" target="_blank" rel="noreferrer">APPLE MUSIC</a><a href="https://www.youtube.com/user/danielgosling" target="_blank" rel="noreferrer">YOUTUBE</a></div>
-  </footer>
-
+  <footer><strong>DANIEL GOSLING</strong><div><a href="https://open.spotify.com/search/Daniel%20Gosling" target="_blank" rel="noreferrer">SPOTIFY</a><a href="https://music.apple.com/au/artist/daniel-gosling/1661173169" target="_blank" rel="noreferrer">APPLE MUSIC</a><a href="https://www.youtube.com/user/danielgosling" target="_blank" rel="noreferrer">YOUTUBE</a></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
